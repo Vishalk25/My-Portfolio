@@ -14,7 +14,14 @@ html, body {
     background-color: #010c24; 
     position:fixed; 
     width: 100%;
-    height: 15%;
+    height: 80px;
+}
+
+.navbar-container {
+    width: 72%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
 }
 
 .custom-navbar{
@@ -22,22 +29,29 @@ html, body {
 }
 
 #home {
-    min-height: 40rem;
-    margin-left: 3rem ;
+    height: 100%;
+    height: 100vh;
+}
+
+#homeContainer {
+    padding-top: 80px;
+    width: 72% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 .image {
-    display: inline-block;
-
+    width: 500px;
+    height: 300px;
 }
 
 .name {
-    display: inline-block; 
-    margin-left:12rem;
-    margin-top: 16rem; 
+    display: inline-block;
     color: white;
     font-size: 50px;
-    margin-right: 3rem;
 }
 
 .name-bold {
@@ -48,25 +62,30 @@ html, body {
 
 .aboutH1 {
     display: inline-block;
-    margin: 16rem 0 30px 14rem;
     text-align: center;
     color: white;
     font-size: 50px;
 }
 
 #desktop {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 span {
     color: teal;
+    margin: 0 11px;
 }
 
 #aboutHead{
     color: rgb(8, 0, 0);
     text-align: center;
-    margin-top: 7rem;
+    padding-top: 90px;
+    width: 82%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    margin: auto;
 }
 
 #aboutPage {
@@ -77,12 +96,19 @@ span {
 #vishal-img {
     width: 250px;
     height: 250px;
-    margin: 3rem 0 0 15rem;
     display: inline-block;
+    margin-right: 50px;
 }
 
 .about {
     color: rgb(8, 0, 0);
+    padding-top: 80px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 .aboutH3 {
@@ -91,40 +117,44 @@ span {
 
 .aboutPara {
     display: inline-block;
-    margin-left: 35rem;
-    margin-top: -110px;
     font-size: 18px;
 }
 
 #skillsHead {
     text-align: center;
-    margin-top: 4rem;
+    padding-top: 100px;
     color: teal;
     text-decoration: underline;
     margin-bottom: 5rem;
 }
 
+#skillsContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.skillsBody {
+    height: 400px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
 .skillLeft {
     display: inline-block;
-    margin-right: 15rem;
 }
 
 .skillRight {
     display: inline-block;
 }
-.skillsBody {
-    margin-left: 15rem;
-}
 
 .skillsTitle {
     color: rgb(145, 141, 141);
-    margin:0 0 1rem 1rem;
+    margin:30px 0 0 ;
 }
 
 .skillsP {
     color: rgba(128, 122, 122, 0.363);
-    margin: 0 0 2rem 1rem;
-
 }
 
  #javaLogo {
@@ -134,12 +164,20 @@ span {
 #javaLogo ,.imgLogo  {
     max-width: 50px;
     max-height: 50px;
-    margin: -8px 0 5rem 1rem;
 }
 
 #contactPage {
     background-color: honeydew;
     text-align: center;
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+#contactContainer {
+    width: 72%;
+    height: 100%;
+    margin: auto;
 }
 
 #contactMe {
@@ -149,25 +187,19 @@ span {
 
 #contact {
     display:flex;
-    margin-top: 6rem;
-}
-
-.contactInfo {
-    margin: auto;
-    margin-bottom: 5rem;
-}
-
-.contactH4 {
-    margin: 2rem 0 2rem 0;
+    padding: 80px 0 40px 0;
+    justify-content: space-between;
 }
 
 #footer {
-    height: 3rem;
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #footerH6 {
     color: blanchedalmond;
-    text-align: center;
-    margin-top: 2rem;
     font-size: 18px;
-    
 }
