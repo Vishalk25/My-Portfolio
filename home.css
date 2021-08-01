@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #010c24;
+}
+
+.navbar {
+    background-color: #010c24; 
+    position:fixed; 
+    width: 100%;
+    height: 15%;
+}
+
+.custom-navbar{
+    box-shadow: 0 0 5px 1px #555151;
+}
+
+#home {
+    min-height: 40rem;
+    margin-left: 3rem ;
+}
+
+.image {
+    display: inline-block;
+
+}
+
+.name {
+    display: inline-block; 
+    margin-left:12rem;
+    margin-top: 16rem; 
+    color: white;
+    font-size: 50px;
+    margin-right: 3rem;
+}
+
+.name-bold {
+    color: teal;
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.aboutH1 {
+    display: inline-block;
+    margin: 16rem 0 30px 14rem;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#desktop {
+    width: 500px;
+    height: 300px;
+}
+
+span {
+    color: teal;
+}
+
+#aboutHead{
+    color: rgb(8, 0, 0);
+    text-align: center;
+    margin-top: 7rem;
+}
+
+#aboutPage {
+    background-color: honeydew;
+    min-height: 40rem;
+}
+
+#vishal-img {
+    width: 250px;
+    height: 250px;
+    margin: 3rem 0 0 15rem;
+    display: inline-block;
+}
+
+.about {
+    color: rgb(8, 0, 0);
+}
+
+.aboutH3 {
+    margin-bottom: 30px;
+}
+
+.aboutPara {
+    display: inline-block;
+    margin-left: 35rem;
+    margin-top: -110px;
+    font-size: 18px;
+}
+
+#skillsHead {
+    text-align: center;
+    margin-top: 4rem;
+    color: teal;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+
+.skillLeft {
+    display: inline-block;
+    margin-right: 15rem;
+}
+
+.skillRight {
+    display: inline-block;
+}
+.skillsBody {
+    margin-left: 15rem;
+}
+
+.skillsTitle {
+    color: rgb(145, 141, 141);
+    margin:0 0 1rem 1rem;
+}
+
+.skillsP {
+    color: rgba(128, 122, 122, 0.363);
+    margin: 0 0 2rem 1rem;
+
+}
+
+ #javaLogo {
+     height: 60px;
+     width: 70px;
+ }
+#javaLogo ,.imgLogo  {
+    max-width: 50px;
+    max-height: 50px;
+    margin: -8px 0 5rem 1rem;
+}
+
+#contactPage {
+    background-color: honeydew;
+    text-align: center;
+}
+
+#contactMe {
+    padding-top: 4rem;
+    text-decoration: underline;
+}
+
+#contact {
+    display:flex;
+    margin-top: 6rem;
+}
+
+.contactInfo {
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.contactH4 {
+    margin: 2rem 0 2rem 0;
+}
+
+#footer {
+    height: 3rem;
+}
+#footerH6 {
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+    
+}
