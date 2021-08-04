@@ -24,8 +24,21 @@ html, body {
     justify-content: start;
 }
 
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(42, 151, 140);
+    border-radius: 40px;
+}
+
 .custom-navbar{
     box-shadow: 0 0 5px 1px #555151;
+}
+
+.navbar-toggler-icon {
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 #home {
@@ -49,7 +62,6 @@ html, body {
 
 .name {
     display: inline-block;
-    color: white;
     font-size: 50px;
 }
 
@@ -292,6 +304,18 @@ span {
     @media all and (max-height:800px){
         #home {
             height: auto;
+        }
+    }
+
+    @media all and (max-width:450px){
+        .about {
+            display: block;
+            padding-bottom: 30px;
+            padding-left: 10px;
+        }
+        #aboutHead {
+            font-size: 160%;
+            justify-content: center;
         }
     }
 }
